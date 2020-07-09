@@ -1,0 +1,45 @@
+h1{
+    font-family: fantasy;
+    font-style: italic;
+    font-size: 45px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: aqua;
+    text-emphasis-color: blueviolet;
+    color: coral;
+        
+}
+.menu{
+    font-size: 40px;
+    position: absolute;
+    top: 6px;
+    right: 50px;
+    
+}
+.menu a{
+    text-decoration: none;
+}
+.btn-open:after{
+    font-family: "fontAwesome";
+    content: "\f0c9";
+    color: darkturquoise;
+}
+.btn-open:hover::after{
+    color: chocolate; 
+}
+
+.btn-close:after{
+     font-family: "fontAwesome";
+    content: "\f00d";
+    color: darkgreen;
+}
+.btn-close:hover::after{
+    color: deeppink;
+    transition: .4s;
+}
+body{
+    background-image: url("img.png");
+}
+.navigation{
+    opacity: 0;
+}
